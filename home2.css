@@ -1,0 +1,113 @@
+nav{
+    width:100%;
+    background:#01455f;
+    height:100px;
+}
+nav ul{
+    float:right;
+    display:flex;
+    margin-top:2%;
+    margin-right:3%;
+}
+nav ul li{
+    margin-left:25px;
+    list-style:none;
+}
+nav ul li a:hover{
+    background:#fff;
+    color:#000;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    padding:10px 30px;
+    border:2px solid #fff;
+    transition:1s ease;
+}
+
+/*=============THIRD TITLE=================*/
+#header-1{
+    margin-top:5%;
+}
+#header-1 h2{
+    font-size:45px;
+    text-align:center;
+    color:#236f8d;
+}
+
+/*===============FLEX TWO=================*/
+#bg-color{
+    background:#F5F5F5;
+    height:500px;
+    margin-top:5%;
+}
+#image-1 img{
+    width:100%;
+    height:400px;
+}
+#image-1, #text{
+    margin-top:4%;
+}
+#text{
+    margin-left:2%;
+}
+#text p{
+    color:#000;
+    font-size:23px;
+    text-align:justify;
+}
+#text button{
+    width:23%;
+    height:40px;
+    background:#ffff00;
+    transition:1s ease;
+}
+#text button:hover{
+    background:#808080;
+    color:#fff;
+}
+#row-2{
+    margin:0 auto;
+    width:80%;
+    justify-content:center;
+}
+
+#footer{
+    border:2px solid #000;
+    height:700px;
+    background:#000;
+    margin-top:7%;
+}
+#footer h1{
+    border:2px solid #000;
+    margin-left:7%;
+    color:#ffff00;
+    font-size:45px;
+}
+#footer h2{
+    border:2px solid #000;
+    margin-left:7%;
+    color:#fff;
+    font-size:19px;
+}
+#row-5{
+    border:2px solid #000;
+    margin-top:10%;
+    justify-content:space-evenly;
+}
+#user h2{
+    width:100%;
+    margin-left:-1%;
+    color:#87ceeb;
+    margin-left:25%;
+}
+#user h4{
+    font-size:12px;
+    color:#F5F5F5;
+    margin-left:25%;
+}
+#user h3{
+    font-size:23px;
+    color:rgb(190, 66, 190);
+    margin-left:25%;
+}
